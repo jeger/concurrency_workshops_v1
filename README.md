@@ -1,6 +1,8 @@
-## Instrukcje
+# Instrukcje
 
-### Ćwiczenie 1
+## Ćwiczenie 1
+
+### Krok 1
 
 Uruchom serwer:
 ```mvn clean install```
@@ -11,6 +13,7 @@ curl http://localhost:8080/counter
 
 Zgodnie z intuicją, serwer odsyła nam kolejny numerek, za każdym razem większy o jeden.
 
+### Krok 2
 
 Zainstaluj narzędzie ab  (apache benchmark)
 ```sudo apt-get update -y```
