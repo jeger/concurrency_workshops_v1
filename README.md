@@ -22,7 +22,7 @@ Zainstaluj narzędzie ab  (apache benchmark)
 Narzędzie ab służy do testów obciążeniowych końcówek http.
 Przykładowy test dla 1000 zapytań i 20 zapytań realizowanych jednocześnie:
 
-ab -n 1000 -c 20 -l
+```ab -n 1000 -c 20 -l http://localhost:8080/counter```
 
 więcej: ```man ab```
 
