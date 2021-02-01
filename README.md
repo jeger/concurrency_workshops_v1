@@ -7,7 +7,7 @@ Uruchom serwer:
 a następnie ```java -jar target/warsztaty-v1-1.0-SNAPSHOT.jar```
 
 W terminalu uruchom kilka razy z rzędu 
-curl http://localhost/counter
+curl http://localhost:8080/counter
 
 Zgodnie z intuicją, serwer odsyła nam kolejny numerek, za każdym razem większy o jeden.
 
